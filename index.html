@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>فرم انیمیشنی</title>
+</head>
+<body>
+    
+    <div class="hero">
+        <div class="form-box">
+            <div class="bottom-box">
+                <div id="btn"></div>
+                <button class="toggle-btn" onclick="login()">ورود</button>
+                <button class="toggle-btn" onclick="register()">ثبت نام</button>
+            </div>
+            <div class="social">
+                <ul>
+                  <li><a href="#" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#" title="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <form id="login" class="form-group">
+                <input type="text" class="input-felid" placeholder="نام کاربری یا ایمیل">
+               <input type="password" class="input-felid" placeholder="پسورد شما">
+               <input type="checkbox" id="checkbox">
+               <label for="checkbox"> فراموشم نکن</label>
+               <input type="submit" value="ورود">
+            </form>
+            <form id="register" class="form-group">
+                <input type="text" class="input-felid" placeholder="نام کاربری  ">
+                <input type="text" class="input-felid" placeholder="ایمیل">
+               <input type="password" class="input-felid" placeholder=" پسورد">
+               <input type="password" class="input-felid" placeholder=" تکرارپسورد">
+               <input type="submit" value="ثبت نام">
+            </form>
+        </div>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
